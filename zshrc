@@ -45,11 +45,9 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/Laf1BUp/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
-# export PATH="/usr/local/opt/openssl/bin:$PATH"
-# export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
-# export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
-# export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 
 export PATH="/usr/local/bin:$PATH"
+
+# export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.0.2t/bin:$PATH"
