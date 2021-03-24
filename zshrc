@@ -51,3 +51,6 @@ export PATH="/usr/local/bin:$PATH"
 # export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 export PATH="/usr/local/opt/openssl@1.0.2t/bin:$PATH"
+
+# For capybara-webkit
+export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
