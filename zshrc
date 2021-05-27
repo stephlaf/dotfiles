@@ -42,6 +42,8 @@ export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bi
 
 # Aliases
 
+source ~/.oh-my-zsh/plugins/git/git.plugin.zsh
+
 # heroku autocomplete setup
 HEROKU_AC_ZSH_SETUP_PATH=/Users/Laf1BUp/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
 
@@ -55,3 +57,7 @@ export PATH="/usr/local/opt/openssl@1.0.2t/bin:$PATH"
 # For capybara-webkit
 export PATH="/usr/local/opt/qt@5.5/bin:$PATH"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
