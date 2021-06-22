@@ -41,13 +41,13 @@
 		"public/packs",
 		"coverage"
 	],
-	"font_size": 15,
+	"font_size": 17,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"JavaScript",
-		"Vintage"
+		"Vintage",
 	],
 	"remember_open_files": false,
 	"rulers":
@@ -55,6 +55,9 @@
 		80
 	],
 	"scroll_past_end": true,
+  "bold_folder_labels": true,
+  "show_git_status": false,
+  // "show_git_status_in_status_bar": false,
 	"tab_size": 2,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true,
@@ -62,5 +65,5 @@
 	"trim_trailing_white_space_on_save": false,
 	"update_check": false,
 	"use_tab_stops": true,
-	"wordWrap": false
+	"wordWrap": false,
 }

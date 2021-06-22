@@ -12,9 +12,10 @@
 		"Emmet",
 		"ERB Snippets",
 		"Git",
-		"GitGutter",
 		"Package Control",
 		"SCSS",
-		"Solarized Color Scheme"
-	]
+		"Solarized Color Scheme",
+		"SublimeREPL",
+		"Swift",
+	],
 }
