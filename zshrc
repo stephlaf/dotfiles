@@ -100,3 +100,4 @@ setopt PROMPT_SP
 export PROMPT_EOL_MARK=""
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
