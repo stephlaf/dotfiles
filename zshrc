@@ -94,6 +94,10 @@ export NVM_DIR="$HOME/.nvm"
 
 alias code="/Applications/Visual\ Studio\ Code.app/contents/Resources/app/bin/code"
 alias ctt='code .'
+alias git_souquez_les_artimuses="open 'https://www.youtube.com/clip/UgkxB9-CfrjcA5OEMAlokTbQYIEdv8-YuPvk'"
+alias teach="cd ~/Dropbox/Documents/coding/le_wagon && ll"
+alias coding="cd ~/Dropbox/Documents/coding && ll"
+alias dotfiles="cd ~/code/stephlaf/dotfiles"
 
 setopt PROMPT_CR
 setopt PROMPT_SP

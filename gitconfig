@@ -12,7 +12,8 @@
 [core]
   pager = less -FRSX
 	# editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
-  editor = code
+  editor = '/Applications/Visual Studio Code.app/contents/Resources/app/bin/code'
+  # editor = code
 
 [alias]
   co = checkout
@@ -47,15 +48,22 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+
+[branch "main"]
+  mergeoptions = --no-edit
+
 [user]
 	email = stephane@medqigong.ca
 	name = Stephane Lafontaine
+
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
+
 [init]
 	defaultBranch = main
+
 [merge "ours"]
 	driver = true
