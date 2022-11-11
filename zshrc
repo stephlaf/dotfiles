@@ -98,6 +98,7 @@ alias git_souquez_les_artimuses="open 'https://www.youtube.com/clip/UgkxB9-Cfrjc
 alias teach="cd ~/Dropbox/Documents/coding/le_wagon && ll"
 alias coding="cd ~/Dropbox/Documents/coding && ll"
 alias dotfiles="cd ~/code/stephlaf/dotfiles"
+alias hrc='heroku run "rails console -- --noautocomplete"'
 
 setopt PROMPT_CR
 setopt PROMPT_SP
