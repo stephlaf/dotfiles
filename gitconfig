@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	# editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+
   editor = '/Applications/Visual Studio Code.app/contents/Resources/app/bin/code'
   # editor = code
 
