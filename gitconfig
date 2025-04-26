@@ -28,6 +28,14 @@
 
   # Clean merged branches
   # sweep = !git branch --merged master | grep -v '(^main$|^master$|^development$)' | xargs git branch -d && git remote prune origin
+  # sweep = !git branch --merged $(git defaultBranch) | grep -E -v " $(git defaultBranch)$" | xargs -r git branch -d && git remote prune origin
+  # defaultBranch = "!git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'"
+  defaultBranch = "!git symbolic-ref --quiet refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@'"
+
+  # sweep = "!git branch --merged $(git defaultBranch) | grep -E -v \" $(git defaultBranch)$\" | xargs -r git branch -d && git remote prune origin"
+  sweep = "!b=$(git defaultBranch) && git branch --merged $b | grep -Ev \"^\\*| $b$\" | xargs -r git branch -d && git remote prune origin"
+
+
 
   # http://www.jukie.net/bart/blog/pimping-out-git-log
   lg = log --graph --all --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr) %C(bold blue)%an%Creset %C(yellow)%d%Creset'
